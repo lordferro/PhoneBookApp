@@ -6,7 +6,7 @@ import 'index.css';
 import { Wrapper } from './PhoneBook.styled';
 import { ToastContainer } from 'react-toastify';
 
-export const PhoneBook = () => {
+const PhoneBook = () => {
   return (
     <Wrapper>
       <h1>Phonebook</h1>
@@ -18,3 +18,5 @@ export const PhoneBook = () => {
     </Wrapper>
   );
 };
+
+export default PhoneBook;

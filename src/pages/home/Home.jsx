@@ -1,3 +1,5 @@
-export const Home = () => {
-  return <h1>Phonebook Applicaton</h1>;
+const Home = () => {
+  return <h1>Applicaton for practice</h1>;
 };
+
+export default Home;
