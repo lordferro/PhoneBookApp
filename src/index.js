@@ -8,11 +8,11 @@ import { BrowserRouter } from 'react-router-dom';
 import { PersistGate } from 'redux-persist/integration/react';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <Provider store={store}>
-    <PersistGate loading={null} persistor={persistor}>
-      <BrowserRouter basename="/PhoneBookApp">
+  <BrowserRouter basename="/PhoneBookApp">
+    <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
         <App />
-      </BrowserRouter>
-    </PersistGate>
-  </Provider>
+      </PersistGate>
+    </Provider>
+  </BrowserRouter>
 );
