@@ -18,7 +18,6 @@ const PhoneBook = lazy(() => import('pages/phoneBook/PhoneBook'));
 export const App = () => {
   const dispatch = useDispatch();
   const { isRefreshing } = useAuth();
-
   useEffect(() => {
     dispatch(refreshUser());
   }, [dispatch]);
