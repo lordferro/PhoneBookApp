@@ -2,8 +2,6 @@ import { useAuth } from 'components/hooks/useAuth';
 
 import FlipCard from 'components/flipCard/FlipCard';
 
-
-
 const cards = [
   {
     id: '1',
@@ -20,7 +18,6 @@ const cards = [
 ];
 
 const Home = () => {
-
   const { isLoggedIn } = useAuth();
 
   return (
@@ -32,7 +29,7 @@ const Home = () => {
           <h1>Register or log in please </h1>
         )}
       </div>
-      <div className="container" >
+      <div className="container">
         {cards.map(card => (
           <FlipCard key={card.id} card={card} />
         ))}
