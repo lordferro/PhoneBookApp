@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/PhoneBookApp/static/css/main.5436ca6a.css",
-    "main.js": "/PhoneBookApp/static/js/main.fde91814.js",
-    "static/js/229.2d3385e1.chunk.js": "/PhoneBookApp/static/js/229.2d3385e1.chunk.js",
+    "main.css": "/PhoneBookApp/static/css/main.fd5e619c.css",
+    "main.js": "/PhoneBookApp/static/js/main.be9de007.js",
+    "static/js/773.68728ed7.chunk.js": "/PhoneBookApp/static/js/773.68728ed7.chunk.js",
     "static/css/80.0cba3b5b.chunk.css": "/PhoneBookApp/static/css/80.0cba3b5b.chunk.css",
     "static/js/80.504e65ea.chunk.js": "/PhoneBookApp/static/js/80.504e65ea.chunk.js",
     "static/css/915.b0c4ea6d.chunk.css": "/PhoneBookApp/static/css/915.b0c4ea6d.chunk.css",
     "static/js/915.f0d5afb5.chunk.js": "/PhoneBookApp/static/js/915.f0d5afb5.chunk.js",
-    "static/js/403.205afa86.chunk.js": "/PhoneBookApp/static/js/403.205afa86.chunk.js",
+    "static/js/403.1f5e04c0.chunk.js": "/PhoneBookApp/static/js/403.1f5e04c0.chunk.js",
     "static/js/270.24410a42.chunk.js": "/PhoneBookApp/static/js/270.24410a42.chunk.js",
     "static/js/442.fabacede.chunk.js": "/PhoneBookApp/static/js/442.fabacede.chunk.js",
     "index.html": "/PhoneBookApp/index.html",
-    "main.5436ca6a.css.map": "/PhoneBookApp/static/css/main.5436ca6a.css.map",
-    "main.fde91814.js.map": "/PhoneBookApp/static/js/main.fde91814.js.map",
-    "229.2d3385e1.chunk.js.map": "/PhoneBookApp/static/js/229.2d3385e1.chunk.js.map",
+    "main.fd5e619c.css.map": "/PhoneBookApp/static/css/main.fd5e619c.css.map",
+    "main.be9de007.js.map": "/PhoneBookApp/static/js/main.be9de007.js.map",
+    "773.68728ed7.chunk.js.map": "/PhoneBookApp/static/js/773.68728ed7.chunk.js.map",
     "80.0cba3b5b.chunk.css.map": "/PhoneBookApp/static/css/80.0cba3b5b.chunk.css.map",
     "80.504e65ea.chunk.js.map": "/PhoneBookApp/static/js/80.504e65ea.chunk.js.map",
     "915.b0c4ea6d.chunk.css.map": "/PhoneBookApp/static/css/915.b0c4ea6d.chunk.css.map",
     "915.f0d5afb5.chunk.js.map": "/PhoneBookApp/static/js/915.f0d5afb5.chunk.js.map",
-    "403.205afa86.chunk.js.map": "/PhoneBookApp/static/js/403.205afa86.chunk.js.map",
+    "403.1f5e04c0.chunk.js.map": "/PhoneBookApp/static/js/403.1f5e04c0.chunk.js.map",
     "270.24410a42.chunk.js.map": "/PhoneBookApp/static/js/270.24410a42.chunk.js.map",
     "442.fabacede.chunk.js.map": "/PhoneBookApp/static/js/442.fabacede.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5436ca6a.css",
-    "static/js/main.fde91814.js"
+    "static/css/main.fd5e619c.css",
+    "static/js/main.be9de007.js"
   ]
 }
