@@ -10,6 +10,7 @@ export const ContactsList = () => {
   const dispatch = useDispatch();
   const { isLoading, error } = useSelector(selectContacts);
   const filteredContacts = useSelector(selectFilteredContacts);
+  
   useEffect(() => {
     dispatch(fetchContactsThunk());
   }, [dispatch]);

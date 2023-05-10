@@ -15,7 +15,6 @@ export const RegistrationForm = () => {
         password: form.elements.password.value,
       })
     );
-    form.reset();
   };
 
   return (
