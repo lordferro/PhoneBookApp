@@ -1,6 +1,6 @@
 import 'index.css';
 import { lazy, useEffect } from 'react';
-import {  Route, Routes } from 'react-router-dom';
+import {  Navigate, Route, Routes } from 'react-router-dom';
 import { Layout } from './Layout/Layout';
 import { useDispatch } from 'react-redux';
 import { refreshUser } from 'redux/auth/operations';
@@ -38,7 +38,7 @@ export const App = () => {
           path="contacts"
           element={<PrivateRoute component={PhoneBook} redirectTo="/login" />}
         />
-        <Route path="*" element={<Home/>} />
+        <Route path="*" element={<Navigate to='/' replace={true}/>} />
       </Route>
     </Routes>
   );
