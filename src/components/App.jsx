@@ -1,12 +1,14 @@
 import 'index.css';
 import { lazy, useEffect } from 'react';
-import { Navigate, Route, Routes } from 'react-router-dom';
+import {  Route, Routes } from 'react-router-dom';
 import { Layout } from './Layout/Layout';
 import { useDispatch } from 'react-redux';
 import { refreshUser } from 'redux/auth/operations';
 import { useAuth } from './hooks/useAuth';
 import { RestrictedRoute } from './RestristedRoute';
 import { PrivateRoute } from './PrivateRoute';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles.scss';
 
 const Home = lazy(() => import('../pages/home/Home'));
 const Register = lazy(() => import('pages/register'));
@@ -36,7 +38,7 @@ export const App = () => {
           path="contacts"
           element={<PrivateRoute component={PhoneBook} redirectTo="/login" />}
         />
-        <Route path="*" element={<Navigate to="/" />} />
+        <Route path="*" element={<Home/>} />
       </Route>
     </Routes>
   );
