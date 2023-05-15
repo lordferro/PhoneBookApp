@@ -14,6 +14,7 @@ const Home = lazy(() => import('../pages/home/Home'));
 const Register = lazy(() => import('pages/register'));
 const Login = lazy(() => import('pages/login'));
 const PhoneBook = lazy(() => import('pages/phoneBook/PhoneBook'));
+const Todo = lazy(() => import('pages/Todo'));
 
 export const App = () => {
   const dispatch = useDispatch();
@@ -31,11 +32,15 @@ export const App = () => {
         <Route path="register" element={<Register />} />
         <Route
           path="login"
-          element={<RestrictedRoute component={Login} redirectTo="/contacts" />}
+          element={<RestrictedRoute component={Login} redirectTo="/" />}
         />
         <Route
           path="contacts"
           element={<PrivateRoute component={PhoneBook} redirectTo="/login" />}
+        />
+        <Route
+          path="todo"
+          element={<PrivateRoute component={Todo} redirectTo="/login" />}
         />
         <Route path="*" element={<Navigate to='/' replace={true}/>} />
       </Route>

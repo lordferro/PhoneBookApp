@@ -15,6 +15,12 @@ const cards = [
     front: ' Your contacts',
     back: ' Your contacts stored on the server, used Redux Async Thunk to fetch data.',
   },
+  {
+    id: '3',
+    path: 'todo',
+    front: 'Todo list',
+    back: 'Written using TypeScript. Your todo list stored on the server, used Redux Async Thunk to fetch data. ',
+  },
 ];
 
 const Home = () => {

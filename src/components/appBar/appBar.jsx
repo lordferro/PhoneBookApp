@@ -20,6 +20,11 @@ export const AppBar = () => {
               Contacts
             </NavLink>}
           </li>
+          <li>
+          { isLoggedIn && <NavLink className={css.link} to="todo">
+              ToDo
+            </NavLink>}
+          </li>
         </ul>
         {isLoggedIn ? <UserMenu /> : <AuthNav />}
       </header>
